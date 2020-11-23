@@ -1,0 +1,12 @@
+.step-one {
+  max-height: 1000px;
+  background-color: var(--primary-color);
+  color: #fff;
+  position: relative;
+}
+
+.step-one .card {
+  overflow: visible;
+  grid-template-columns: 55% auto;
+  gap: 30px;
+}
