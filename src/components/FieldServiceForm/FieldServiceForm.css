@@ -1,0 +1,46 @@
+.fuel-icon {
+  width: 40px;
+}
+
+.oil-icon {
+  width: 50px;
+}
+
+.service-fields {
+  width: 400px;
+}
+
+.services-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* .service-selector img {
+  width: 30px;
+} */
+
+.service-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-menu {
+  /* width: 400px; */
+  /* border: 1px solid gray; */
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.services {
+  display: flex;
+  width: 400px;
+}

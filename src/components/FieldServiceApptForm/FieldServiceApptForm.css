@@ -1,0 +1,19 @@
+.example-custom-input {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
+
+.step-icon {
+  width: 30px;
+}
+
+.step-display {
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid black; */
+  border-width: 50%;
+}

@@ -1,0 +1,12 @@
+.step-two {
+  height: 400px;
+  /* background-color: var(--primary-color); */
+  /* color: #fff; */
+  position: relative;
+}
+
+.step-two .card {
+  overflow: visible;
+  grid-template-columns: 55% auto;
+  gap: 30px;
+}
