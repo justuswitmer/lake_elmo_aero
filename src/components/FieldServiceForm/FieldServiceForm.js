@@ -1,0 +1,77 @@
+import React from "react";
+
+function FieldServiceForm() {
+  return (
+    <div className="step-one">
+      <section className="container">
+        <div className="card my-5">
+          <div>
+            <h3>Field Service</h3>
+          </div>
+          <div>
+            <p className="lg">N-4216S</p>
+            <form class="">
+              <div>
+                <h3>Services</h3>
+              </div>
+              <div>
+                <div className="">
+                  <section>
+                    <p className="lead text-bold">Fuel</p>
+                    <p className="sm">Type</p>
+                    <select class="custom-select" id="inputGroupSelect01">
+                      <option selected>Choose...</option>
+                      <option value="1">100L... $3.75 </option>
+                      <option value="2">Jet A... $2.69</option>
+                    </select>
+                  </section>
+
+                  <section>
+                    <p className="sm">Volume</p>
+                    <select class="custom-select" id="inputGroupSelect01">
+                      <option selected>Choose...</option>
+                      <option value="1">Full</option>
+                      <option value="2">Tabs</option>
+                      <option value="3">Lbs</option>
+                    </select>
+                  </section>
+                </div>
+
+                <section>
+                  <p className="lead text-bold">Oil</p>
+                  <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Quarts...</option>
+                    <option value="1">1 qt</option>
+                    <option value="2">2 qts</option>
+                    <option value="3">3 qts</option>
+                    <option value="4">4 qts</option>
+                    <option value="5">5 qts</option>
+                  </select>
+                </section>
+                <section>
+                  <p className="lead text-bold">Additional Service Details</p>
+                  <div class="input-group">
+                    <textarea
+                      class="form-control"
+                      aria-label="With textarea"
+                    ></textarea>
+                  </div>
+                </section>
+              </div>
+            </form>
+            <div className="flex btn-grouping">
+              <button type="submit" class="btn btn-primary mb-2 my-5">
+                Back
+              </button>
+              <button type="submit" class="btn btn-primary mb-2 my-5">
+                Next
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default FieldServiceForm;
