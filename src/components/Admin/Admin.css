@@ -1,0 +1,46 @@
+.adminTable {
+  border-radius: 2px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%); 
+  width: 100%;
+}
+
+#adminBtn {
+  border-radius: 10px;
+  height: 30px;
+  padding: 0 10px;
+  opacity: 75%; 
+}
+
+#fuelBtn {
+  border-radius: 8px;
+  height: 21px;
+  padding: 0px 7px;
+  opacity: 60%;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+#logoutBtn {
+  border-radius: 8px;
+  height: 21px;
+  padding: 0 7px;
+  opacity: 60%;
+  float: right;
+  margin-top: -35px;
+  font-size: 12px;
+}
+
+.adminBtnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#historyBtn {
+  font-size: 20px;
+  font-weight: bold;
+}
