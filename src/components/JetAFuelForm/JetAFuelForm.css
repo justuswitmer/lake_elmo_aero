@@ -1,0 +1,8 @@
+.btn-spacing {
+  justify-content: space-between;
+}
+
+.example-custom-input {
+  background-color: var(--primary-color);
+  color: white;
+}
