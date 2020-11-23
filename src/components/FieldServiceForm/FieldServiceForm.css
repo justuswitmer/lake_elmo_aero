@@ -1,0 +1,10 @@
+.service-fields {
+  display: flex;
+}
+
+.service-selector {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+  align-items: center;
+}
