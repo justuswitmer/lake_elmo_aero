@@ -1,0 +1,35 @@
+.service-fields {
+  width: 400px;
+}
+
+.service-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.service-selector img {
+  width: 30px;
+}
+
+.oil-icon {
+  width: 40px;
+}
+
+.service-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-menu {
+  width: 400px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.services {
+  display: flex;
+  width: 400px;
+}

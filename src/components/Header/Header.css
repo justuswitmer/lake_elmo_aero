@@ -1,0 +1,56 @@
+.header {
+  background-color: var(--btn-gradient);
+  height: 140px;
+  border-bottom: 1px solid lightgray;
+}
+
+.header img {
+  height: 90px;
+}
+
+.header .container {
+  justify-content: space-between;
+}
+
+.headerAdmin {
+  background-color: var(--btn-gradient);
+  height: 150px;
+  border-bottom: 1px solid lightgray;
+}
+
+.headerAdmin img {
+  height: 90px;
+}
+
+.headerAdmin .container {
+  justify-content: space-between;
+}
+
+.tail-input {
+  display: flex;
+}
+
+#fuelIcon {
+  height: 18px;
+  opacity: 60%;
+  margin: 0;
+  position: relative;
+  left: 5px;
+  top: 8px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.fuelPriceEdit {
+  display: flex;
+  font-size: 18px;
+}
+
+#logoutBtn {
+  border-radius: 8px;
+  height: 21px;
+  padding: 0px 7px;
+  opacity: 60%;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
