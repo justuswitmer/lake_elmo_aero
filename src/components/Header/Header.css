@@ -1,0 +1,18 @@
+.header {
+  background-color: var(--btn-gradient);
+  height: 140px;
+  border-bottom: 1px solid lightgray;
+}
+
+.header img {
+  height: 90px;
+  margin: 20px;
+}
+
+.tail-input {
+  display: flex;
+}
+
+.header .container {
+  justify-content: space-between;
+}
