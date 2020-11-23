@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--light-color);
+  height: 180px;
+  border-bottom: 1px var(--text-color) solid;
+}
+
+.header img {
+  height: 75px;
+  margin: 20px;
+}
+
+.tail-input {
+  display: flex;
+}
